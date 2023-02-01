@@ -1,0 +1,6 @@
+projectKey=Agendamiento-Sede
+serverUrl=http://localhost:9000
+serverVersion=9.7.1.62043
+dashboardUrl=http://localhost:9000/dashboard?id=Agendamiento-Sede
+ceTaskId=AYUCZWdBS_JSW79H4pmh
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYUCZWdBS_JSW79H4pmh

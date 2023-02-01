@@ -1,0 +1,6 @@
+projectKey=Agendamiento-Malla
+serverUrl=http://localhost:9000
+serverVersion=9.7.1.62043
+dashboardUrl=http://localhost:9000/dashboard?id=Agendamiento-Malla
+ceTaskId=AYVaefsFsc4b-zDI1zX8
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYVaefsFsc4b-zDI1zX8

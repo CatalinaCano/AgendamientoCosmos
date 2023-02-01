@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "d47f99db-9f63-43f1-955c-eed790f34a18",
+		"name": "QR",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3570549"
+	},
+	"item": [
+		{
+			"name": "QR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/CodigoQr",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"CodigoQr"
+					],
+					"query": [
+						{
+							"key": "cadena",
+							"value": "https://stwebtransversaldtdev.z20.web.core.windows.net/",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "APIM",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "84bfb703a29548e1b651736c0bcb58aa",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://apim-transversales-dt-dev.azure-api.net:443/fx-agendamcodigoqr-dt-dev/V1.0/CodigoQr?cadena=https://stwebtransversaldtdev.z20.web.core.windows.net/ciudadano/citas/0xECBEC24C364E6C58C7A884F30CC0AE055DEBBC216D4B49AA5C34B148A2D42DDA",
+					"protocol": "https",
+					"host": [
+						"apim-transversales-dt-dev",
+						"azure-api",
+						"net"
+					],
+					"port": "443",
+					"path": [
+						"fx-agendamcodigoqr-dt-dev",
+						"V1.0",
+						"CodigoQr"
+					],
+					"query": [
+						{
+							"key": "cadena",
+							"value": "https://stwebtransversaldtdev.z20.web.core.windows.net/ciudadano/citas/0xECBEC24C364E6C58C7A884F30CC0AE055DEBBC216D4B49AA5C34B148A2D42DDA"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

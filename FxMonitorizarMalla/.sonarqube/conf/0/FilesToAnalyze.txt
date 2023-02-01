@@ -1,0 +1,14 @@
+﻿C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\DataContext\UnitOfWork.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\FxMonitorizarMalla.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\Interfaces\RepositoryPattern\IMallaRepository.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\Interfaces\RepositoryPattern\IUnitOfWork.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\Models\DataTransferObjects\MallaDto.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\Repositories\MallaRepository.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\Repositories\RepositoryBase.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\Startup.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\Utils\TimeHelper.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\obj\Debug\net6.0\FxMonitorizarMalla.AssemblyInfo.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\.gitignore
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\host.json
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizarMalla\local.settings.json

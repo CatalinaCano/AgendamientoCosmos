@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "071b1be3-c801-4600-8314-caced3daeb4a",
+		"name": "Servicio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4882156"
+	},
+	"item": [
+		{
+			"name": "ObtenerServicios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/Servicio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"Servicio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerServicioPorID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/Servicio/d477df82-64e7-40ff-849c-11a606f31f5f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"Servicio",
+						"d477df82-64e7-40ff-849c-11a606f31f5f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerServicioPorIdGrupoServicio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/Servicio/GrupoServicio/0xA92E799E8A8D74B5D0E503547B386B7854643879CCB12DF554180A51BFFB9220",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"Servicio",
+						"GrupoServicio",
+						"0xA92E799E8A8D74B5D0E503547B386B7854643879CCB12DF554180A51BFFB9220"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearServicio",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idGrupoServicio\": \"0xA92E799E8A8D74B5D0E503547B386B7854643879CCB12DF554180A51BFFB9220\",\r\n    \"nombre\": \"Servicio 2\",\r\n    \"tiempo\": 30,\r\n    \"numeroPersonas\": 1,\r\n    \"tramiteVirtual\": true,\r\n    \"tipoPago\": \"Ventanilla\",\r\n    \"activo\": true,\r\n    \"usuario\": \"User Test 1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/Servicio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"Servicio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarServicio",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idGrupoServicio\": \"0xA92E799E8A8D74B5D0E503547B386B7854643879CCB12DF554180A51BFFB9220\",\r\n    \"nombre\":\"Servicio 2 Modificado\",\r\n    \"tiempo\": 70,\r\n    \"numeroPersonas\": 1,\r\n    \"tramiteVirtual\": false,\r\n    \"tipoPago\": \"Ventanilla\",\r\n    \"activo\": true,\r\n    \"usuario\": \"User Test 12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/Servicio/0x072867BE8545379F2F91833DF97B7A1E2677705B1F1B6BC21E4B6998C77773F8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"Servicio",
+						"0x072867BE8545379F2F91833DF97B7A1E2677705B1F1B6BC21E4B6998C77773F8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

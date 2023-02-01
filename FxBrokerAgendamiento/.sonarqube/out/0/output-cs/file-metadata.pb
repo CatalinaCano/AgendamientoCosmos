@@ -1,0 +1,9 @@
+q
+hC:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\FxBrokerAgendamiento.csutf-8t
+kC:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\Interfaces\IHttpService.csutf-8o
+fC:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\Models\AgendaInput.csutf-8r
+iC:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\Models\ResponseResult.csutf-8q
+hC:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\Services\HttpService.csutf-8d
+[C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\Startup.csutf-8ú
+êC:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8í
+ÜC:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\obj\Debug\net6.0\FxBrokerAgendamiento.AssemblyInfo.csutf-8

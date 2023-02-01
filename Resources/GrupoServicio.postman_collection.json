@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "59ae3daa-586d-4cda-bbac-ba4c334386aa",
+		"name": "GrupoServicio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4882156"
+	},
+	"item": [
+		{
+			"name": "ObtenerGrupoServicio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/GrupoServicio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"GrupoServicio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerGrupoServicioPorID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/GrupoServicio/0xA92E799E8A8D74B5D0E503547B386B7854643879CCB12DF554180A51BFFB9220",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"GrupoServicio",
+						"0xA92E799E8A8D74B5D0E503547B386B7854643879CCB12DF554180A51BFFB9220"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearGrupoServicio",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Prueba 2\",\r\n    \"usuario\": \"User Test 1\",\r\n    \"activo\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/GrupoServicio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"GrupoServicio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarGrupoServicio",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Prueba 1\",\r\n    \"usuario\": \"User Test 2\",\r\n    \"activo\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/GrupoServicio/0xDF28091DF972ABDC3C0CE41D5F3E72272DBCA2D57B0462EB949173F791D6BD2D",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"GrupoServicio",
+						"0xDF28091DF972ABDC3C0CE41D5F3E72272DBCA2D57B0462EB949173F791D6BD2D"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

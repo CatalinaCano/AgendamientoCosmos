@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ServiceBusConnectionString": "Endpoint=sb://sbcomunicaciones.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=k+qwMqJSRHt5AhAsOmI9Uka3Gz+TqAgl2Y/nViM5I0A=",
+    "NombreCola": "agendamientoMasivo"
+  },
+  "Agendamiento": {
+    "EndPoint": "http://localhost:7071/api/V1.0/AgendarCita"
+  },
+  "Host": {
+    "LocalHttpPort": 7073
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "KEY_VAULT_NAME": "kvcapacitafenix",
+    "AzureTenantId": "89d340ea-7120-4607-a652-3ee50cede13d"
+  },
+  "SecretsNames": {
+    "ConDataBase": "ConnString-DbFenix"
+  }
+}

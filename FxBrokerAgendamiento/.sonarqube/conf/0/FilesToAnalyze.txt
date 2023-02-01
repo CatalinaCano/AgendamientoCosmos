@@ -1,0 +1,11 @@
+﻿C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\FxBrokerAgendamiento.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\Interfaces\IHttpService.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\Models\AgendaInput.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\Models\ResponseResult.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\Services\HttpService.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\Startup.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\obj\Debug\net6.0\FxBrokerAgendamiento.AssemblyInfo.cs
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\.gitignore
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\host.json
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_TRV_AGENDAMIENTO\FxBrokerAgendamiento\local.settings.json

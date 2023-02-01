@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "0088af0e-1078-4991-aee5-4fc24a27bf4f",
+		"name": "GrupoTramite",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3570549"
+	},
+	"item": [
+		{
+			"name": "Crear Grupo Tramite",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Grupo de Tramite 3\",\r\n    \"descripcion\": \"Descripción Grupo Tramite 3\",\r\n    \"icono\":\"/icono\",\r\n    \"activo\":true,\r\n    \"usuario\":\"Usuario Test 1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/GrupoTramite",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"GrupoTramite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Grupos de Tramite",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/GrupoTramite",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"GrupoTramite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarGrupoTramiteById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/GrupoTramite/0x9DEAEE7C3501C125E6654E7B7B79F7B8B649A7994EBB4772C3CB8653526CBA16",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"GrupoTramite",
+						"0x9DEAEE7C3501C125E6654E7B7B79F7B8B649A7994EBB4772C3CB8653526CBA16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarGrupoTramite",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Grupo de Tramite 1\",\r\n    \"descripcion\": \"Descripción Grupo Tramite 1\",\r\n    \"icono\":\"/icono\",\r\n    \"activo\":true,\r\n    \"usuario\":\"Usuario Test 1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/GrupoTramite/0x9DEAEE7C3501C125E6654E7B7B79F7B8B649A7994EBB4772C3CB8653526CBA16",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"GrupoTramite",
+						"0x9DEAEE7C3501C125E6654E7B7B79F7B8B649A7994EBB4772C3CB8653526CBA16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerGrupoServicioPorIDGrupoTramite",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/V1.0/GrupoServicio/GrupoTramite/0x9DEAEE7C3501C125E6654E7B7B79F7B8B649A7994EBB4772C3CB8653526CBA16",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"V1.0",
+						"GrupoServicio",
+						"GrupoTramite",
+						"0x9DEAEE7C3501C125E6654E7B7B79F7B8B649A7994EBB4772C3CB8653526CBA16"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

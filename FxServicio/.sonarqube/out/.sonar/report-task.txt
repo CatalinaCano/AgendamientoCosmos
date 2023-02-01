@@ -1,0 +1,6 @@
+projectKey=Agendamiento-Servicio
+serverUrl=http://localhost:9000
+serverVersion=9.7.1.62043
+dashboardUrl=http://localhost:9000/dashboard?id=Agendamiento-Servicio
+ceTaskId=AYUCYpA8S_JSW79H4pmf
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYUCYpA8S_JSW79H4pmf

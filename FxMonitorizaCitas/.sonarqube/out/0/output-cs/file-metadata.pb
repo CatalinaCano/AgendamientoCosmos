@@ -1,0 +1,14 @@
+{
+rC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\DataContext\UnitOfWork.csutf-8v
+mC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\FxMonitorizaCitas.csutf-8ï
+ãC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\Interfaces\RepositoryPattern\ITramiteRepository.csutf-8é
+ÑC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\Interfaces\RepositoryPattern\IUnitOfWork.csutf-8à
+C:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\Models\DataTransferObjects\CitasDto.csutf-8è
+ÖC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\Models\DataTransferObjects\TramitesDiaDto.csutf-8{
+rC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\Models\Entities\Agenda.csutf-8Ä
+wC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\Repositories\RepositoryBase.csutf-8É
+zC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\Repositories\TramiteRepository.csutf-8l
+cC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\Startup.csutf-8u
+lC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\Utils\TimeHelper.csutf-8§
+òC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8ó
+ãC:\Users\pc\source\repos\TRANSVERSALES\BCK_PROCESOS_BATCH_AGENDAMIENTO\FxMonitorizaCitas\obj\Debug\net6.0\FxMonitorizaCitas.AssemblyInfo.csutf-8

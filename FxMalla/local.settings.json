@@ -1,0 +1,31 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "KEY_VAULT_NAME": "kvcapacitafenix", //"kv-agendamiento-dt-dev", //"kvcapacitafenix",
+    "AzureTenantId": "89d340ea-7120-4607-a652-3ee50cede13d", //"b568d8b1-5364-425a-ba44-ddb5c3df72c9", //"89d340ea-7120-4607-a652-3ee50cede13d",
+    "WEBSITE_TIME_ZONE": "Eastern Standard Time"
+  },
+  "SecretsNames": {
+    "EndpointUri": "CosmosDB-EndpointUrl",
+    "Key": "CosmosDB-PrimaryKey",
+    "ConDataBase": "ConnString-DbFenix",
+    "ApiKeyFestivos": "ApiKeyFestivos"
+  },
+  "CosmosDB": {
+    "NombreBD": "agendamiento",
+    "ColeccionMalla": "malla",
+    "ColeccionSede": "sede",
+    "ColeccionTramite": "tramite",
+    "ColeccionServicio": "servicio"
+  },
+  "ServicioFestivos": {
+    "EndPoint": "https://apim-transversales-dt-dev.azure-api.net/fx-mdmdiasfestivo-dt-dev/V1.0/DiasFestivos",
+    "Parametro1": "fechaInicio",
+    "Parametro2": "fechaMayor"
+  },
+  "RegexExpression": {
+    "Fecha": "^(?:(?:31(\\/|-|\\.)(?:0?[13578]|1[02]))\\1|(?:(?:29|30)(\\/|-|\\.)(?:0?[13-9]|1[0-2])\\2))(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:29(\\/|-|\\.)0?2\\3(?:(?:(?:1[6-9]|[2-9]\\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\\d|2[0-8])(\\/|-|\\.)(?:(?:0?[1-9])|(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$"
+  }
+}

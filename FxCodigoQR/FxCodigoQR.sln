@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxCodigoQR", "FxCodigoQR\FxCodigoQR.csproj", "{FDF60BAF-3F60-4F83-9DDA-88AE438B11B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF60BAF-3F60-4F83-9DDA-88AE438B11B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF60BAF-3F60-4F83-9DDA-88AE438B11B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF60BAF-3F60-4F83-9DDA-88AE438B11B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF60BAF-3F60-4F83-9DDA-88AE438B11B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {852EA9B8-39CF-4315-AEB1-2A9E65042FE6}
+	EndGlobalSection
+EndGlobal
